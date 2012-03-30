@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE623B2515264A650062CAFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE623B2415264A650062CAFD /* UIKit.framework */; };
+		AE623B2715264A650062CAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE623B2615264A650062CAFD /* Foundation.framework */; };
+		AE623B2915264A650062CAFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE623B2815264A650062CAFD /* CoreGraphics.framework */; };
+		AE623B2F15264A650062CAFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE623B2D15264A650062CAFD /* InfoPlist.strings */; };
+		AE623B3215264A650062CAFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE623B3115264A650062CAFD /* main.m */; };
+		AE623B3515264A650062CAFD /* MyRebatePalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE623B3415264A650062CAFD /* MyRebatePalAppDelegate.m */; };
+		AE623B3815264A650062CAFD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE623B3615264A650062CAFD /* MainWindow.xib */; };
+		AE623B3B15264A650062CAFD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE623B3A15264A650062CAFD /* FirstViewController.m */; };
+		AE623B3E15264A650062CAFD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE623B3D15264A650062CAFD /* SecondViewController.m */; };
+		AE623B4115264A650062CAFD /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE623B3F15264A650062CAFD /* FirstView.xib */; };
+		AE623B4415264A650062CAFD /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE623B4215264A650062CAFD /* SecondView.xib */; };
+		AE623B4B15264A650062CAFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE623B2415264A650062CAFD /* UIKit.framework */; };
+		AE623B4C15264A650062CAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE623B2615264A650062CAFD /* Foundation.framework */; };
+		AE623B4D15264A650062CAFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE623B2815264A650062CAFD /* CoreGraphics.framework */; };
+		AE623B5515264A650062CAFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE623B5315264A650062CAFD /* InfoPlist.strings */; };
+		AE623B5815264A650062CAFD /* MyRebatePalTests.h in Resources */ = {isa = PBXBuildFile; fileRef = AE623B5715264A650062CAFD /* MyRebatePalTests.h */; };
+		AE623B5A15264A650062CAFD /* MyRebatePalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE623B5915264A650062CAFD /* MyRebatePalTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE623B4E15264A650062CAFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE623B1715264A650062CAFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE623B1F15264A650062CAFD;
+			remoteInfo = MyRebatePal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE623B2015264A650062CAFD /* MyRebatePal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRebatePal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE623B2415264A650062CAFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE623B2615264A650062CAFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE623B2815264A650062CAFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE623B2C15264A650062CAFD /* MyRebatePal-Info.plist */ = {isa = PBXFileReference; path = "MyRebatePal-Info.plist"; sourceTree = "<group>"; };
+		AE623B2E15264A650062CAFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE623B3015264A650062CAFD /* MyRebatePal-Prefix.pch */ = {isa = PBXFileReference; path = "MyRebatePal-Prefix.pch"; sourceTree = "<group>"; };
+		AE623B3115264A650062CAFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE623B3315264A650062CAFD /* MyRebatePalAppDelegate.h */ = {isa = PBXFileReference; path = MyRebatePalAppDelegate.h; sourceTree = "<group>"; };
+		AE623B3415264A650062CAFD /* MyRebatePalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRebatePalAppDelegate.m; sourceTree = "<group>"; };
+		AE623B3715264A650062CAFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AE623B3915264A650062CAFD /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		AE623B3A15264A650062CAFD /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		AE623B3C15264A650062CAFD /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		AE623B3D15264A650062CAFD /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		AE623B4015264A650062CAFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		AE623B4315264A650062CAFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		AE623B4A15264A650062CAFD /* MyRebatePalTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRebatePalTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE623B5215264A650062CAFD /* MyRebatePalTests-Info.plist */ = {isa = PBXFileReference; path = "MyRebatePalTests-Info.plist"; sourceTree = "<group>"; };
+		AE623B5415264A650062CAFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE623B5615264A650062CAFD /* MyRebatePalTests-Prefix.pch */ = {isa = PBXFileReference; path = "MyRebatePalTests-Prefix.pch"; sourceTree = "<group>"; };
+		AE623B5715264A650062CAFD /* MyRebatePalTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyRebatePalTests.h; sourceTree = "<group>"; };
+		AE623B5915264A650062CAFD /* MyRebatePalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRebatePalTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE623B1D15264A650062CAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE623B2515264A650062CAFD /* UIKit.framework in Frameworks */,
+				AE623B2715264A650062CAFD /* Foundation.framework in Frameworks */,
+				AE623B2915264A650062CAFD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE623B4615264A650062CAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE623B4B15264A650062CAFD /* UIKit.framework in Frameworks */,
+				AE623B4C15264A650062CAFD /* Foundation.framework in Frameworks */,
+				AE623B4D15264A650062CAFD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE623B1515264A650062CAFD = {
+			isa = PBXGroup;
+			children = (
+				AE623B2A15264A650062CAFD /* MyRebatePal */,
+				AE623B5015264A650062CAFD /* MyRebatePalTests */,
+				AE623B2315264A650062CAFD /* Frameworks */,
+				AE623B2115264A650062CAFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE623B2115264A650062CAFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE623B2015264A650062CAFD /* MyRebatePal.app */,
+				AE623B4A15264A650062CAFD /* MyRebatePalTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE623B2315264A650062CAFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE623B2415264A650062CAFD /* UIKit.framework */,
+				AE623B2615264A650062CAFD /* Foundation.framework */,
+				AE623B2815264A650062CAFD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE623B2A15264A650062CAFD /* MyRebatePal */ = {
+			isa = PBXGroup;
+			children = (
+				AE623B3315264A650062CAFD /* MyRebatePalAppDelegate.h */,
+				AE623B3415264A650062CAFD /* MyRebatePalAppDelegate.m */,
+				AE623B3615264A650062CAFD /* MainWindow.xib */,
+				AE623B3915264A650062CAFD /* FirstViewController.h */,
+				AE623B3A15264A650062CAFD /* FirstViewController.m */,
+				AE623B3C15264A650062CAFD /* SecondViewController.h */,
+				AE623B3D15264A650062CAFD /* SecondViewController.m */,
+				AE623B3F15264A650062CAFD /* FirstView.xib */,
+				AE623B4215264A650062CAFD /* SecondView.xib */,
+				AE623B2B15264A650062CAFD /* Supporting Files */,
+			);
+			path = MyRebatePal;
+			sourceTree = "<group>";
+		};
+		AE623B2B15264A650062CAFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE623B2C15264A650062CAFD /* MyRebatePal-Info.plist */,
+				AE623B2D15264A650062CAFD /* InfoPlist.strings */,
+				AE623B3015264A650062CAFD /* MyRebatePal-Prefix.pch */,
+				AE623B3115264A650062CAFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE623B5015264A650062CAFD /* MyRebatePalTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE623B5715264A650062CAFD /* MyRebatePalTests.h */,
+				AE623B5915264A650062CAFD /* MyRebatePalTests.m */,
+				AE623B5115264A650062CAFD /* Supporting Files */,
+			);
+			path = MyRebatePalTests;
+			sourceTree = "<group>";
+		};
+		AE623B5115264A650062CAFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE623B5215264A650062CAFD /* MyRebatePalTests-Info.plist */,
+				AE623B5315264A650062CAFD /* InfoPlist.strings */,
+				AE623B5615264A650062CAFD /* MyRebatePalTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE623B1F15264A650062CAFD /* MyRebatePal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE623B5D15264A650062CAFD /* Build configuration list for PBXNativeTarget "MyRebatePal" */;
+			buildPhases = (
+				AE623B1C15264A650062CAFD /* Sources */,
+				AE623B1D15264A650062CAFD /* Frameworks */,
+				AE623B1E15264A650062CAFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyRebatePal;
+			productName = MyRebatePal;
+			productReference = AE623B2015264A650062CAFD /* MyRebatePal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE623B4915264A650062CAFD /* MyRebatePalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE623B6015264A650062CAFD /* Build configuration list for PBXNativeTarget "MyRebatePalTests" */;
+			buildPhases = (
+				AE623B4515264A650062CAFD /* Sources */,
+				AE623B4615264A650062CAFD /* Frameworks */,
+				AE623B4715264A650062CAFD /* Resources */,
+				AE623B4815264A650062CAFD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE623B4F15264A650062CAFD /* PBXTargetDependency */,
+			);
+			name = MyRebatePalTests;
+			productName = MyRebatePalTests;
+			productReference = AE623B4A15264A650062CAFD /* MyRebatePalTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE623B1715264A650062CAFD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AE623B1A15264A650062CAFD /* Build configuration list for PBXProject "MyRebatePal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE623B1515264A650062CAFD;
+			productRefGroup = AE623B2115264A650062CAFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE623B1F15264A650062CAFD /* MyRebatePal */,
+				AE623B4915264A650062CAFD /* MyRebatePalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE623B1E15264A650062CAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE623B2F15264A650062CAFD /* InfoPlist.strings in Resources */,
+				AE623B3815264A650062CAFD /* MainWindow.xib in Resources */,
+				AE623B4115264A650062CAFD /* FirstView.xib in Resources */,
+				AE623B4415264A650062CAFD /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE623B4715264A650062CAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE623B5515264A650062CAFD /* InfoPlist.strings in Resources */,
+				AE623B5815264A650062CAFD /* MyRebatePalTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE623B4815264A650062CAFD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE623B1C15264A650062CAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE623B3215264A650062CAFD /* main.m in Sources */,
+				AE623B3515264A650062CAFD /* MyRebatePalAppDelegate.m in Sources */,
+				AE623B3B15264A650062CAFD /* FirstViewController.m in Sources */,
+				AE623B3E15264A650062CAFD /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE623B4515264A650062CAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE623B5A15264A650062CAFD /* MyRebatePalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE623B4F15264A650062CAFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE623B1F15264A650062CAFD /* MyRebatePal */;
+			targetProxy = AE623B4E15264A650062CAFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE623B2D15264A650062CAFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE623B2E15264A650062CAFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE623B3615264A650062CAFD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE623B3715264A650062CAFD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AE623B3F15264A650062CAFD /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE623B4015264A650062CAFD /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		AE623B4215264A650062CAFD /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE623B4315264A650062CAFD /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		AE623B5315264A650062CAFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE623B5415264A650062CAFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE623B5B15264A650062CAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE623B5C15264A650062CAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AE623B5E15264A650062CAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyRebatePal/MyRebatePal-Prefix.pch";
+				INFOPLIST_FILE = "MyRebatePal/MyRebatePal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE623B5F15264A650062CAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyRebatePal/MyRebatePal-Prefix.pch";
+				INFOPLIST_FILE = "MyRebatePal/MyRebatePal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AE623B6115264A650062CAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyRebatePal.app/MyRebatePal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyRebatePalTests/MyRebatePalTests-Prefix.pch";
+				INFOPLIST_FILE = "MyRebatePalTests/MyRebatePalTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AE623B6215264A650062CAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyRebatePal.app/MyRebatePal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyRebatePalTests/MyRebatePalTests-Prefix.pch";
+				INFOPLIST_FILE = "MyRebatePalTests/MyRebatePalTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE623B1A15264A650062CAFD /* Build configuration list for PBXProject "MyRebatePal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE623B5B15264A650062CAFD /* Debug */,
+				AE623B5C15264A650062CAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE623B5D15264A650062CAFD /* Build configuration list for PBXNativeTarget "MyRebatePal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE623B5E15264A650062CAFD /* Debug */,
+				AE623B5F15264A650062CAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE623B6015264A650062CAFD /* Build configuration list for PBXNativeTarget "MyRebatePalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE623B6115264A650062CAFD /* Debug */,
+				AE623B6215264A650062CAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE623B1715264A650062CAFD /* Project object */;
+}
